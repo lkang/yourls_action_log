@@ -1,3 +1,6 @@
+YOURLS_action_log
+=================
+
 Plugin for YOURLS 1.6
 
 This plugin hooks every action trigger and prints out the 
@@ -8,6 +11,7 @@ It easy to lookup action names in the code to see the execution path.
 
 Sample output: 
 
+<pre>
  action_log_plugins_loaded
  action_log_admin_init
  action_log_require_auth
@@ -26,3 +30,4 @@ Sample output:
  action_log_social_bookmarklet_buttons_after
  action_log_html_footer
  action_log_shutdown
+</pre>
